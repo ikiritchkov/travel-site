@@ -38,13 +38,12 @@
      transition: transform .3s ease-out;
      transform-origin: 50% 0%;
 
-
 @mixin atMedium {
     left: auto;
     transform: translateX(0);
 
     .site-header--dark & {
-    transform: scale(.6);
+    transform: scale(.56);
 }
 }
 }
